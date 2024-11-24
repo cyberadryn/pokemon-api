@@ -41,54 +41,8 @@ if pokemon_info:
    print ("ID: "f"{pokemon_info["id"]}")
    print ("Height: " f"{pokemon_info["height"]}") 
    print ("Weight: " f"{pokemon_info["weight"]}") 
-#    print(f"Location Area: {', '.join([la['generation']['name'] for la in pokemon_info2['generation']])}")
-#    print ("Location Areaa: " f"{pokemon_info2["generation"]}") 
    print(f"Types: {', '.join([q['type']['name'].capitalize() for q in pokemon_info['types']])}")
    print(f"Abilities: {', '.join([g['ability']['name'].capitalize() for g in pokemon_info['abilities']])} \n")
    print(f"Learnable Moves: {', '.join([bs['move']['name'].capitalize() for bs in pokemon_info['moves']])}")
    
-    # Fetch and display the sprite
-# sprite_url = pokemon_info["sprites"]["front_default"]
-# if sprite_url:
-#         response = requests.get(sprite_url)
-#         if response.status_code == 200:
-#             img = Image.open(BytesIO(response.content))
-#             imgcat(img)  # Display the image in the terminal (iTerm2, kitty, etc.)
-#         else:
-#             print("Failed to fetch sprite image.")
-# else:
-#         print("No sprite URL available.")
-# else:
-# print("Failed to fetch Pokémon data.")
-# df = pd.json_normalize(pokemon_info)
-# print(df)
-# df.to_csv('test.csv', index=False, encoding='utf-8')
-
  
-
-
-
-
-
-
-
-
-# def my_info(name):
-#     print(f"My name is: {my_name}")
-
-# my_name = "Kim"
-# my_info(my_name)
-
-# def simple_math(answer):
-#     print(c)
-
-# a = 7
-# b = 9   
-# c = a + b
-# simple_math(c)
-
-# def first_program(hello):
-#     print (yo)
-
-# yo = "YOU SMART!!!"
-# first_program(yo)
