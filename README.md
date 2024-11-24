@@ -16,3 +16,16 @@ Welcome to the **Pokémon API**! This project is designed to provide an API for 
 1. Clone this repository:
    git clone https://github.com/cyberadryn/pokemon-api.git
 
+2. Change directory 
+   cd pokemon-api
+
+3. Create Virtual Environment
+   python3 -m venv venv
+
+4. Install dependencies
+   pip install -r requirements.txt
+
+5. Run main.py
+   python3 main.py
+   
+
