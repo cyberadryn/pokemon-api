@@ -1,6 +1,5 @@
 import os
 import requests
-import pandas as pd
 import io
 from imgcat import imgcat
 from PIL import Image
